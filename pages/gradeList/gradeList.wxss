@@ -1,0 +1,80 @@
+/* pages/gradeList/gradeList.wxss */
+.userInfo{
+  background: #F0EFF6;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+  position: relative;
+}
+.userInfo-image{
+  width: 76rpx;
+  height: 76rpx;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.userInfo-name{
+  display: inline-block;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+  color: #666;
+}
+.userInfo-exit{
+  position: absolute;
+  right: 30rpx;
+  top:50%;
+  transform: translateY(-50%);
+  padding-right: 18rpx;
+  font-size: 26rpx;
+  color: #4285F4;
+  border: 1px #4285F4 solid;
+  border-radius: 2px;
+  padding-left: 52rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+ 
+}
+.userInfo-exit-image{
+  position: absolute;
+  left: 18rpx;
+  top:50%;
+  transform: translateY(-50%);
+  width: 28rpx;
+  height: 28rpx;
+}
+.userCont{
+  padding: 0 30rpx;
+  height: calc(100% - 100rpx);
+  overflow-y: auto;
+}
+.class-item{
+  height: 64rpx;
+  line-height: 64rpx;
+  padding: 30rpx 0;
+  border-bottom:1px #E5E5E5  solid;
+  
+}
+.className{
+  position: relative;
+  font-size: 30rpx;
+  color: #333;
+  width: calc(100% - 140rpx);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.item-cont{
+  position: relative;
+}
+.openClass{
+  position: absolute;
+  right: 0;
+  top:0;
+  height: 64rpx;
+  color: #fff;
+  border-radius: 2px;
+  background-color: #4285F4;
+  text-align: center;
+  width: 128rpx;
+  font-size: 30rpx;
+}

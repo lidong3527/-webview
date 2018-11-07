@@ -1,0 +1,20 @@
+<!--pages/gradeList/gradeList.wxml-->
+<view>
+  <view class='userInfo'>
+    <image class='userInfo-image' src='{{userInfo.avatar}}'></image>
+    <view class='userInfo-name'>{{userInfo.userName}}</view>
+    <view class='userInfo-exit' bindtap='exitLoagin'>
+     <image class='userInfo-exit-image' src='../images/icon_quite.png'></image>
+        退出登录
+    </view>
+  </view>
+  <view class='userCont'>
+    <view class='class-item' wx:for="{{classArray}}" wx:key="{{index}}">
+      <view class='item-cont'>
+        <view class='className'>{{item.className}}</view>
+          <view class='openClass' data-classid="{{item.classId}}" bindtap='openClass'>开课</view>
+        
+      </view>
+    </view>
+  </view>
+</view>

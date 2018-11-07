@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wx38ececaa6b4ff84e",
+	"projectname": "%E5%B0%8F%E8%9A%82%E8%9A%81%E5%BC%80%E8%AF%BE%E5%8A%A9%E6%89%8B",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "编辑摄像头",
+					"pathName": "pages/wxTakePhoto/wxTakePhoto",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "webview",
+					"pathName": "pages/webview/webview"
+				}
+			]
+		}
+	}
+}

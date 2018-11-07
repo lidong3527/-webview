@@ -1,0 +1,31 @@
+<view class="accountBind_box" style="height:{{height}}px">
+  <view class='accountBind_image'>
+    <view class='accountBind_img_box'>
+      <image src='../images/elearningLogo.png'></image>
+    </view>
+    <view class='title'>小蚂蚁开课助手</view>
+  </view>
+
+  <view class='accountBind_form'>
+    <form bindsubmit='formSubmit'>
+    <view class='inputCont'>
+     <image class='input_image' src='../images/icon_account.png'></image>
+      <input value='{{phone}}' name="phone" type='text' maxlength='11' class='phone' bindfocus='phoneFocus' bindblur='phoneBlur' placeholder='请输入小蚂蚁帐号'>
+      <!-- <view class='{{phonePlaceholder}}'>账号:</view> -->
+      
+      </input>
+    </view>
+       <view class='inputCont'>
+        <image class='input_image' src='../images/icon_psw.png'></image>
+          <input value='{{sendCode}}' name='sendCode' type='password' bindfocus='sendCodeFocus' bindblur='sendCodeBlur' class='sendCode' bindinput='sendCodeInput' placeholder='请输入密码'>
+        <!-- <view class='{{sendCodePlaceholder}}'>密码:</view> -->      
+        <!-- <view class='obtainCode' bindtap='obtainCodeClick' wx:if="{{sendFlag}}">获取验证码</view>
+        <view class='obtainCode' bindtap='obtainCodeClick' style="{{time == ''?'color:blue':''}}" wx:else>{{time == ''?'重新发送':'重新发送\t\t\t'+time+'s'}}</view> -->
+        </input> 
+       </view>
+    
+      <button form-type="submit"  class="{{buttonChange?'accountBind_btn_change':'accountBind_btn'}}"><text class="{{buttonChange?'btn_text':''}}">{{buttonChange?'正在登录...':'登录'}}</text></button>
+    </form>
+  </view>
+
+</view>

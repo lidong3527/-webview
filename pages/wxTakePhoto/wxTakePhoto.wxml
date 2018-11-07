@@ -1,0 +1,3 @@
+<camera wx:if="{{loading}}" device-position="back" flash="off" binderror="error" style="width: 100%; height: {{height}}px">
+   <cover-view class='takePhoto' bindtap="takePhoto"><cover-view class='photoBtn'></cover-view></cover-view>
+</camera>

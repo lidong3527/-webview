@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/wxTakePhoto/wxTakePhoto",
+    "pages/album/album",
+    "pages/gradeList/gradeList",
+    "pages/webview/webview",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小蚂蚁开课助手",
+    "navigationBarTextStyle":"black"
+  }
+}
